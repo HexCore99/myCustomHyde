@@ -1,0 +1,52 @@
+/* User custom styles */
+
+/* Bigger workspace numbers */
+#workspaces button {
+  font-size: 15px;
+}
+
+/* Bigger window title */
+#window,
+#window * {
+  font-size: 15px;
+}
+
+/* Make right-side modules a bit larger */
+#idle_inhibitor,
+#clock,
+#network,
+#pulseaudio,
+#pulseaudio.microphone,
+#tray,
+#custom-updates,
+#custom-hyde-menu,
+#custom-power {
+  font-size: 15px;
+}
+
+/* Bigger app icons area + padding for taskbar */
+/* --- Make taskbar icons visibly bigger --- */
+#taskbar button image {
+  min-height: 20px;
+}
+
+/* Optional: adjust padding so they don't look cramped */
+#taskbar button {
+  padding: 4px 10px;
+}
+
+#taskbar button {
+  min-width: 32px;
+  min-height: 32px;
+  padding: 4px 8px;
+}
+
+#taskbar button.active {
+  padding: 4px 10px;
+}
+
+#custom-arch {
+  font-size: 15px;
+  min-width: 32px; /* enough room for the pill */
+  padding: 8px; /* symmetric padding keeps the glyph centered */
+}

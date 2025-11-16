@@ -1,0 +1,15 @@
+{
+  "network#speeds": {
+    "interval": 2,
+    "tooltip": true,
+
+    "format": "↓ {bandwidthDownBytes}  ↑ {bandwidthUpBytes}",
+    "format-wifi": "󰖩  ↓ {bandwidthDownBytes}  ↑ {bandwidthUpBytes}",
+    "format-ethernet": "󰈀  ↓ {bandwidthDownBytes}  ↑ {bandwidthUpBytes}",
+
+    "format-disconnected": "󰖪",
+    "tooltip-format-disconnected": "Disconnected",
+
+    "tooltip-format": "Interface: {ifname}\nDown: {bandwidthDownBytes}\nUp:   {bandwidthUpBytes}\nIP:   {ipaddr}/{cidr}"
+  }
+}
